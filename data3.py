@@ -24,4 +24,4 @@ people = [alice, bob, carlos, carol, charlie, chuck, dave, eve, mallory,
     peggy, trent, victor, walter, a_team, b_team, c_team]
 
 
-charlie, eve, alice, bob, carlos, 
+# c_team = [charlie, eve, alice, bob, carlos, peggy, trent, victor]
