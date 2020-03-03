@@ -12,4 +12,9 @@ class TestPerson(unittest.TestCase):
         self.assertEqual([t.displayname for t in solution.exercise1(data1.alice, data1.people)], ['The A-Team', 'The C-Team'])
     
     def test_affiliation_3(self):
-        self.assertEqual([t.displayname for t in solution.exercise1(data2.bob, data2.people)], ['The A-Team', 'The C-Team'])
+        self.assertEqual([t.displayname for t in solution.exercise1(data2.bob, data2.people)], ['The A-Team','The B-Team', 'The C-Team'])
+
+
+
+if __name__ == '__main__':
+    unittest.main()
